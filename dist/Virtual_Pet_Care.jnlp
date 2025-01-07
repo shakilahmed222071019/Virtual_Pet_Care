@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Virtual_Pet_Care.jnlp">
+  <information>
+    <title>Virtual_Pet_Care</title>
+    <vendor>afrid</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Virtual_Pet_Care.jar" size="2693" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="virtual_pet_care.Virtual_Pet_Care"  name="Virtual_Pet_Care" />
+  <update check="always"/>
+</jnlp>
