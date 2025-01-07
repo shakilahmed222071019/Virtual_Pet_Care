@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Virtual_Pet_Care.jar" size="2693" download="eager" />
+    <jar href="Virtual_Pet_Care.jar" size="5375" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="virtual_pet_care.Virtual_Pet_Care"  name="Virtual_Pet_Care" />
   <update check="always"/>

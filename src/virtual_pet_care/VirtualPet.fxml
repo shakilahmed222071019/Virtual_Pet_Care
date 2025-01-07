@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="virtual_pet_care.VirtualPetController">
+    <Label text="Virtual Pet Care" style="-fx-font-size: 24px;"/>
+    <Label fx:id="petMoodLabel" text="😊" style="-fx-font-size: 48px;"/>
+    <Label fx:id="statusLabel" text="Your pet is waiting for you!" style="-fx-font-size: 16px;"/>
+    <ProgressBar fx:id="hungerBar" prefWidth="300" progress="0.8"/>
+    <ProgressBar fx:id="happinessBar" prefWidth="300" progress="0.8"/>
+    <ProgressBar fx:id="energyBar" prefWidth="300" progress="0.8"/>
+    <HBox spacing="10">
+        <Button text="Feed" onAction="#feedPet"/>
+        <Button text="Play" onAction="#playWithPet"/>
+        <Button text="Rest" onAction="#restPet"/>
+    </HBox>
+</VBox>

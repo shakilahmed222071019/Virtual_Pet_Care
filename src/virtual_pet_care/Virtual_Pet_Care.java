@@ -18,7 +18,7 @@ public class Virtual_Pet_Care extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("VirtualPet.fxml"));
         
         Scene scene = new Scene(root);
         
